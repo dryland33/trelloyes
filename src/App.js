@@ -24,6 +24,7 @@ The 2 props are:
 
 import React from 'react';
 import './App.css';
+// eslint-disable-next-line
 import List from './List';
 
 function App() {

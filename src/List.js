@@ -21,6 +21,7 @@ The 2 props are:
 
 import React from 'react';
 import './List.css';
+// eslint-disable-next-line
 import Card from './Card';
 
 function List(title, content) {
