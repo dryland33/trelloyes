@@ -14,9 +14,11 @@ import React from 'react';
 import './Card.css';
 
 function Card() {
-    return (<div>
-        a card
-    </div>);
+    return (<div className="Card">
+              <button type="button">delete</button>
+              <h3>A card</h3>
+              <p>lorem ipsum</p>
+            </div>);
 }
 
 export default Card;
