@@ -1,6 +1,4 @@
-
-const STORE = {
-    lists: [
+export default { lists: [
       {
         id: '1',
         header: 'First list',
@@ -38,5 +36,3 @@ const STORE = {
       'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
     },
   }
-
-export default STORE;

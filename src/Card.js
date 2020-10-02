@@ -13,11 +13,11 @@ props will be passed in for each Card from the List component.*/
 import React from 'react';
 import './Card.css';
 
-function Card() {
+function Card(props) {
     return (<div className="Card">
               <button type="button">delete</button>
-              <h3>A card</h3>
-              <p>lorem ipsum</p>
+              <h3>{props.title}</h3>
+              <p>{props.content}</p>
             </div>);
 }
 

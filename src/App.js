@@ -22,26 +22,39 @@ The 2 props are:
     * cards  - an array of card objects
         + You'll need to combine the cardIds array for the list with the allCards object. */
 
-import React from 'react';
+import React, { Component } from 'react';
+import List from './List'
 import './App.css';
-// eslint-disable-next-line
-import List from './List';
+class App extends Component {
 
-function App() {
-  return (
-    <main className='App'>
-      <header className="App-header">
-        <h1>Trelloyes!</h1>
-      </header>
-      <div className="App-list">
-        <List />
-        <List />
-        <List />
-        <List />
-        <List />
-      </div>
-    </main>
-  );
+  static defaultProps = {
+    store: {
+      lists: [],
+      allCards: {},
+    }
+  };
+
+  render() {
+    const { store } = this.props
+    return (
+      <main className='App'>
+        <header className='App-header'>
+          <h1>Trelloyes!</h1>
+        </header>
+        <div className='App-list'>
+          {/*Map each list's state to a List component*/}
+          {store.lists.map(list => (
+            <List
+              key={list.id}
+              header={list.header}
+              // Any card with the specified id goes in the list containing it.
+              cards={list.cardIds.map(id => store.allCards[id])}
+            />
+          ))}
+        </div>
+      </main>
+    );
+  }
 }
 
 export default App;

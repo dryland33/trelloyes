@@ -14,30 +14,30 @@ These props will be passed in for each List from the App component.
 The List should render a Card component for each of the cards in the cards array prop.
 
 Each instance of the Card component should be passed 2 props (and a key). 
-
-The 2 props are: 
-    * title   - a string for the Card's title
-    * content - a string of the Card's content */
+      The 2 props are: 
+          * title   - a string for the Card's title
+          * content - a string of the Card's content */
 
 import React from 'react';
 import './List.css';
 import Card from './Card';
 
-function List(title, content) {
+export default function List(props) {
     return (
         <div>
             <section className="List">
                 <header className="List-header">
-                    <h2>A list</h2>
+                    <h2>{props.header}</h2>
                 </header>
                 <div className="List-cards">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    {/*map each card's state to a card component*/}
+                    {props.cards.map((card) =>
+                        <Card
+                            key={card.key}
+                            title={card.title}
+                            content={card.content}
+                        />
+                    )}
                     <button type="button" className="List-add-button">
                         + Add Random Card
                     </button>
@@ -46,5 +46,3 @@ function List(title, content) {
         </div>
     );
 }
-
-export default List;
