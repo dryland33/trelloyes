@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/trelloyes/static/css/main.f1d5073c.chunk.css",
-    "main.js": "/trelloyes/static/js/main.a7ce0a86.chunk.js",
-    "main.js.map": "/trelloyes/static/js/main.a7ce0a86.chunk.js.map",
+    "main.css": "/trelloyes/static/css/main.4813e924.chunk.css",
+    "main.js": "/trelloyes/static/js/main.d0e52e61.chunk.js",
+    "main.js.map": "/trelloyes/static/js/main.d0e52e61.chunk.js.map",
     "runtime-main.js": "/trelloyes/static/js/runtime-main.0843b9cf.js",
     "runtime-main.js.map": "/trelloyes/static/js/runtime-main.0843b9cf.js.map",
-    "static/js/2.706faa7c.chunk.js": "/trelloyes/static/js/2.706faa7c.chunk.js",
-    "static/js/2.706faa7c.chunk.js.map": "/trelloyes/static/js/2.706faa7c.chunk.js.map",
+    "static/js/2.53dec217.chunk.js": "/trelloyes/static/js/2.53dec217.chunk.js",
+    "static/js/2.53dec217.chunk.js.map": "/trelloyes/static/js/2.53dec217.chunk.js.map",
     "index.html": "/trelloyes/index.html",
-    "precache-manifest.a32e943238fe18a05f8d0e76396809ac.js": "/trelloyes/precache-manifest.a32e943238fe18a05f8d0e76396809ac.js",
+    "precache-manifest.f2944cfd0f5de971b99a48df6dc671ee.js": "/trelloyes/precache-manifest.f2944cfd0f5de971b99a48df6dc671ee.js",
     "service-worker.js": "/trelloyes/service-worker.js",
-    "static/css/main.f1d5073c.chunk.css.map": "/trelloyes/static/css/main.f1d5073c.chunk.css.map",
-    "static/js/2.706faa7c.chunk.js.LICENSE.txt": "/trelloyes/static/js/2.706faa7c.chunk.js.LICENSE.txt"
+    "static/css/main.4813e924.chunk.css.map": "/trelloyes/static/css/main.4813e924.chunk.css.map",
+    "static/js/2.53dec217.chunk.js.LICENSE.txt": "/trelloyes/static/js/2.53dec217.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0843b9cf.js",
-    "static/js/2.706faa7c.chunk.js",
-    "static/css/main.f1d5073c.chunk.css",
-    "static/js/main.a7ce0a86.chunk.js"
+    "static/js/2.53dec217.chunk.js",
+    "static/css/main.4813e924.chunk.css",
+    "static/js/main.d0e52e61.chunk.js"
   ]
 }
